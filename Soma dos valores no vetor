@@ -8,7 +8,7 @@ int main() {
     printf("Digite cinco numeros inteiros:\n");
     for(i = 0; i < 5; i++) {
         printf("Numero %d: ", i + 1);
-        scanf("%d", &vetor[i]);
+        scanf("%i", &vetor[i]);
     }
 
     // Percorre o vetor e calcula a soma de todos os seus valores
